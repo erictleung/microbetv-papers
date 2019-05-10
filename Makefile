@@ -1,7 +1,11 @@
 # set shell
 SHELL := /usr/bin/env bash
 
-.PHONY : help example
+# master : Create master reference file and list file
+master :
+	echo "Done"
+
+.PHONY : help
 
 # help : Help page for Makefile
 help :
