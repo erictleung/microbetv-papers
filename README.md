@@ -4,8 +4,14 @@
 
 **Contents**
 
+- [Requirements](#requirements)
 - [Repository Organization](#repository-organization)
 - [License](#license)
+
+## Requirements
+
+- [npm](https://www.npmjs.com/get-npm)
+- [bibtex-tidy](https://github.com/FlamingTempura/bibtex-tidy)
 
 ## Repository Organization
 
