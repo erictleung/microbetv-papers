@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-        - name: Checkout source files
+        - name: Checkout Source Files
         uses: actions/checkout@v2
 
-        - name: Setup Ruby 2.6
+        - name: Set up Ruby 2.6
         uses: actions/setup-ruby@v1
         with:
             ruby-version: 2.6.x
