@@ -22,6 +22,6 @@ help :
 	@echo -e "------\t\t-----------"
 	@grep '## [A-Za-z]* : [A-Za-z]*' $(MAKEFILE_LIST) | \
 		sed 's/## //' | \
-		awk -F" : " '{ printf "%-13s%s\n", $$1, $$2}'
+		awk -F" : " '{ printf "%s\t\t%s\n", $$1, $$2}'
 
 .DEFAULT_GOAL := help
